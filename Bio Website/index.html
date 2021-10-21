@@ -1,0 +1,188 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<title>FutureBirdziview</title>
+	<!-----Font Link----->
+	<link rel="preconnect" href="https://fonts.google.com/specimen/Inconsolata">
+	<link rel="preconnect" href="https://fonts.google.com/specimen/Inconsolata">
+	<link href="https://fonts.google.com/specimen/Inconsolata"
+				rel="stylesheet">
+	<meta name="viewport" content="width=device-width, intial-scale=1">
+	
+	<style>
+		
+		body{
+			font-family:"Inconsolata VariableFont wdth";
+			margin: 0;
+			
+		}
+		header{
+			background-color: #eec0c6;
+			/*adding background image*/
+			background-image: url("'images'/IMG_0933.JPG");
+			/*set the background image to fill available space*/
+			background-size:cover;
+			/*sticks it in place*/
+			background-attachment: fixed;
+			/*position the image in the div*/
+			background-position: center;
+			
+			color:#0F0A14;
+			height:50vh;
+			/**this is a flex box element**/
+			display: flex;
+			/*put in the centre of the container*/
+			alighn-items: center;
+			padding-left: 20px;
+			/*jusitfy-content: center;*/
+		}
+		header h1{
+			font-size: 50px;
+			font-family:"Inconsolata VariableFont wdth",wght
+		}
+		
+		.flex-container{
+			display: flex;
+			alighn-items: stretch;
+		}
+		
+		.flex-container div{
+			background-color: #EEC0C6;
+			margin:10px;
+			padding: 10px;
+		}
+		/*set the width of the divs*/
+		/*****first rows*****/
+		#item1{ 
+			flex:20%;
+		}
+		
+		#item img{
+			width:100%;
+		}
+		
+		
+		#item2 {
+			flex:50%;
+		}
+		#item3 {
+			flex:30%;
+		}
+		
+		
+		/** css for buttons**/
+		.btn{
+			background-color: #ffcfdf;
+			border:none;
+			padding:25px 50px;
+			font-size: 16px;
+		}
+		/*hover state*/
+		.btn:hover{
+			background-color:#FFCFDF;
+			color: #7ee8fa;
+		}
+		
+		/***************second row*************/
+		#item4{
+			flex:25%;
+		}
+		#item5{
+			flex:50%;
+		}
+		/**************footer**************/
+		#item6{
+			flex:25%;
+			/*over write the inherited style*/
+			background-color: transparent;
+		}
+		#item7{
+			flex:50%;
+			background-color: transparent;
+		}
+		#item8{
+			flex:25%;
+			background-color: transparent;	
+		}
+		
+		footer{
+			background-color:#56CDD5;
+			padding:50px 0px;
+			color:#944FE7;
+				text-align: center;
+				font-weight: bold;
+		}
+		
+			/*********media query to change the style for phones********/
+		@media (max-width:800px){ 
+				.flex-container{
+					flex-direction: column;
+				}
+		
+	</style>
+	</head>
+
+<body>
+	
+	<header>
+		<h1>
+		<img src="'images'/IMG_1434.jpg" height="140" width="900" alt="title">
+		</h1>
+		
+	</header>
+	<!-------------------------row 1----------------------------->
+	<div class="flex-container">
+		<div id="item1">
+		<img src="'images'/IMG_2192.PNG" width="1080" height="650" alt="myself">
+			
+		</div>
+		
+			<!---add some buttons--->
+			<h2>
+			<p><button class="btn">About Me!</button></p>
+				<img src="'images'/IMG_2186 (3).JPG" height="325" width="385" alt="me">
+		</h2>
+		</div>
+		<div>
+		<div id="item2">
+			<p>Hello, my name is Jordan. I am a indegnious canadian from the Piikani Nation. I was born and raised in the windy city of Lethbirdge, Alberta. Currently I have been studying in a Multi Media Program, at the Lethbridge College. I plan on finishing post secondary because I want to pursue a career blending artistic abilities and my newly learned technical technology skills. I worked as a intern at the Lethbirdge University radio station, CKXU 88.3 FM. My time there, peaked my interest in sound production and help inspire me to take a Multi Media Program at the College. </p>
+			<p>FutureBirdziview is my musical alias I choose, because I consider myself to have a birds eye view persepective and my the future aspect is homage to my favourite anime character Future Trunks from the Dragon Ball Z anime series. Music is a big part of my life, I am not spending my free time working on my instrumental music, then I am most likely listening too music to find inspiration. I have a vast music collection, I enjoy listening to 70's and 80's Jazz Fusion, Disco, Funk, Rock, Soul, and Rnb music, I also am a hip hop head. Hip hop artist known as RZA, Lordfubu, Clams Casino and MF Doom are my influences when I make my beats. As I create synth melodies and mixed them with aggressive hip hop drums. I have been making beats for roughly 4 years and only as of this past year would consider my production quality. My friend who goes my Quidiculus is a rapper from Alaska and we have been collorating, I always enjoy the chance to be a music producer and hope to create visual art for my music production in the future.</p>
+		</div>
+			<div id="item3">
+			</div>
+			</div>
+		
+		<div class="flex-container">
+			<div id="item4">
+				<video width="320" height="240" controls>
+				<source src="'images'/IMG_1134.mp4" type="video/mp4">
+				</video>
+				<a href="index.html">
+				<img src="'images'/IMG_1432.gif" height="230" width="200" alt="spray can">
+				</a>
+				<img src="'images'/IMG_1960.JPG" height="400" weight="300" alt="diamond">
+				<img src="'images'/IMG_0484.JPG" height="350" width="600" alt="painting">
+			</div>
+			<div id="item5">
+				<p><strong><button class="btn">TABASCO the CAT</button></strong></p>
+				<p>My roommate and my first pet as an adult. I got him as a kitten from a family relative and now it has been about 3 years since he became my sidekick. He has a playful personality and loves his daytime naps. When he is awake, Tabasco loves to play with his toy mice and that guy really makes me happy! Recently my step father and I build Tabasco a cat tower in his workshop, it is now Tabasco's favourite spot in the apartment. </p>
+				<img src="'images'/IMG_1128.jpg" height="830" width="825" alt="cat">
+			</div>
+		</div>
+		
+		
+		
+	<footer>
+		<div class="flex-container">
+		<div id="item6"></div>
+			<div id="item7">
+			<p>Created by Jordan David</p>
+			<p>&copy; 2021</p>
+		</div>
+		<div id="item8"></div>
+		</div>
+		
+	</footer>
+	
+</body>
+</html>
