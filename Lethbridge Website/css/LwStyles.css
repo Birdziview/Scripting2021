@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+body{
+	/*remove default spacing*/
+	margin: 0;
+	padding: 0;
+	
+	/*set a background colour*/
+	background: #879B8B;
+	
+	/*set a default font family*/
+	font-family: 'Kanit', sans-serif;
+	
+}
+
+h1{
+	/*set a font for headings*/
+	font-family: 'Bevan', cursive;
+	font-size: 2.5em;/*1 em = 16 px(default size) so 2.5em= 40px*/
+	color: #F0EDED;
+	
+}
+
+#header{
+	margin: 0;
+	/*space inside the div*/
+	padding: 100px;
+	
+	/*set a background image*/
+	
+	background-image: url("../images/LethbridgeBackground.jpg");
+	
+	/*set the background image to cover the whole div*/
+	background-size: cover;
+}
+
+#subHead{
+	/*space inside the div*/
+	padding: 100px;
+	
+	/*set margin top and bottom to 0 and auto centered*/
+	margin: 0 auto;
+	/*set a background image*/
+	background-image: url("../images/LethbridgeFortWhoopUp.jpg");
+	/*set the background image to cover the whole div*/
+	background-size: cover;
+	/*make it so the background image doesn't scroll with the page*/
+	background-attachment: fixed;
+	/*set css to look at entire element (padding included) to set size*/
+	box-sizing: border-box;
+	/*set a maximum width of 960px*/
+	max-width: 960px;
+	
+}
+
+.sect{
+	
+	background: #70AD98;
+	margin: 0 auto;
+	padding: 20px;
+	
+	/*set css to look at entire element (padding included) to set size*/
+	box-sizing: border-box;
+	/*set a maximum width of 960px*/
+	max-width: 960px;
+	
+}
+
+/*psuedo-classes for the links (with rollovers)*/
+a:link,  a:visted{
+	color:#7D5288;
+	text-decoration: underline;
+}
+
+a:active{
+	color:#599B6C;
+	
+}
+
+/*------------------------------------navBar --------------------------------------*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/*---------------------------------image gallery-----------------------------------*/
