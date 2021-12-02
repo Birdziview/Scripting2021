@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Mad Lib</title>
+<link  href="file:///D|/Lethbridge College Fall 2021 Semester/JordanScripting2021/Madlib/css/Styles.css" rel="stylesheet" type="text/css" />
+
+	<style>
+	
+	
+	
+	
+	</style>
+	
+	
+	
+	</head>
+<body>
+	<h1>Mad Lib</h1>
+	
+	<hr>
+	<form action="javascript:myStory();">
+		
+	<p>
+		<label for="pln">Plural Noun:</label>
+	    <input type="text" id="pln" name="pln" autofocus>
+	</p>
+	<p>
+		<label for="adj">Adjective:</label>
+		<input type="text" id="adj" name="adj" autofocus>
+	</p>
+	<p>
+		<label for="ptv">Present Tense Verb:</label>
+		<input type="text" id="ptv" name="ptv" autofocus>
+	</p>
+	<p>
+		<label for="noun">Noun:</label>
+		<input type="text" id="noun" name="noun" autofocus>
+	</p>
+	
+	</form>
+	
+	<div id="output"></div>
+	
+	<script>
+		function myStory(){
+			console.log("It's Working!");
+			
+			var apl=document.getElementById('pln').value;
+			var adj=document.getElementById('adj').value;
+			var apt=document.getElementById('ptv').value;
+			var ano=document.getElementById('noun').value;
+			
+			
+			document.getElementById('output').innerHTML="There are too many "+apl+" on this "+adj+" airplane"", I screamed." "Somebody has to "+apt+" on the "+ano+" to solve this problem.";
+		}
+	</script>
+	<h2>Mad Lib Instructions</h2>
+	<p>Fill in all the input boxes, then click the <em>"Mad Lib"</em> button</p>
+	<p><button>Mad Lib</button></p>
+	<hr>
+	
+	<h2>Mad Lib Results</h2>
+	<p id="result">
+	"There are too many blank on this blank airplane", I screamed. "Somebody has to blank on the blank to solve this problem."
+	</p>
+	
+</body>
+</html>
