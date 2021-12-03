@@ -40,14 +40,20 @@
 		<input type="text" id="noun" name="noun" autofocus>
 	</p>
 	
+		<!--the button which will 'submit' the form to the 'form action', which is a call to our Javascript function-->
+		<p><input type="submit" value="Generate Story"></p>
+		
 	</form>
 	
 	<div id="output"></div>
 	
 	<script>
 		function myStory(){
+			//this is the function that runs once the form is submitted
 			console.log("It's Working!");
 			
+			//variable delclartion block -- This is where we create the variables and assign them a value
+			//In this case the value is whatever the user has entered into the input elements
 			var apl=document.getElementById('pln').value;
 			var adj=document.getElementById('adj').value;
 			var apt=document.getElementById('ptv').value;
@@ -63,7 +69,6 @@
 	<p><button>Mad Lib</button></p>
 	<hr>
 	
-	<h2>Mad Lib Results</h2>
 	<p id="result">
 	"There are too many _____ on this _____ helicopter", I screamed. "Somebody has to _____ on the _____ to solve this problem."
 	</p>
