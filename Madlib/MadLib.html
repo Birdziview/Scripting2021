@@ -8,9 +8,8 @@
 
 	<style>
 		body{
-			background-color: #6DA091; color:white;
-		}
-	
+			background-color: #6DA091; color:white;}
+		.paleturquoise{color:paleturquoise}
 	
 	
 	</style>
@@ -54,8 +53,9 @@
 			var apt=document.getElementById('ptv').value;
 			var ano=document.getElementById('noun').value;
 			
+			//concatenate together strings and variables to create a message
 			
-			document.getElementById('output').innerHTML="There are too many "+apl+" on this "+adj+" airplane"", I screamed." "Somebody has to "+apt+" on the "+ano+" to solve this problem.";
+			document.getElementById('output').innerHTML="<p class='paleturquoise'>There are too many "+apl+" on this "+adj+" airplane, I screamed. Somebody has to "+apt+" on the "+ano+" to solve this problem. </p>";
 		}
 	</script>
 	<h2>Mad Lib Instructions</h2>
