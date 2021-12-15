@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	/*Remove default spacing*/
+	margin: 0; 
+	padding: 0; 
+	
+	/*set a background colour*/
+	background:#622819; 
+	
+	/*set a default font family*/
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+h1{
+	/*set a fint for headings*/
+	font-family: 'Press Start 2P', cursive; 
+	font-size: 2.5em;/*1 em = 16 px(default size) so 2.5em= 40px*/
+}
+
+
+#header{
+	margin: 0;
+	/*space inside the div*/
+	padding: 100px;
+	
+	/*set a background image*/
+	
+	/*set the background image to cover the whole div*/
+
+}
+
+#subHead{
+	/*space inside the div*/
+	padding: 100px;
+	
+	/*set margin top and bottom to 0 and auto centered*/
+	margin: 0 auto;
+	/*set a background image*/
+	
+	/*set the background image to cover the whole div*/
+	
+	/*make it so the background image doesn't scroll with the page*/
+	
+	/*set css to look at entire element (padding included) to set size*/
+	
+	/*set a maximum width of 960px*/
+
+}
+
+.sect{
+	
+	background: #FFFFFF; 
+	margin: 0 auto; 
+	padding: 20px; 
+	
+	/*set css to look at entire element (padding included) to set size*/
+	
+	/*set a maximum width of 960px*/
+	
+}
+
+/*psuedo-classes for the links (with rollovers)*/
+a:link, a:visited{
+	color:#B0A33C; 
+	text-decoration: none;
+}
+a:hover{
+	color:red; 
+	text-decoration: underline;
+}
+a:active{
+	color: orangered;
+}
+
+/*------------------------navBar -------------------*/
+
+
+/*----------------------------image gallery-----------------*/
+
+
+
+/*---------------------------Tables------------------------*/
+
