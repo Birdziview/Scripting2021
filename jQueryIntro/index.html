@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Fade and Slide</title>
+	
+	<!-----------------------------------------------Font Awesome CDN--------------------------------->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	
+	<!-----------------------------------------------Our Styles-------------------------------->
+	<link href="css/myStyles.css" rel="stylesheet" type="text/css">
+	
+	<!-----------------------------------------------jQuery CDN-------------------------------->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+</head>
+<body>
+	<!-----------------------------------------------navBar--------------------------------->
+	<nav>
+		<h3>Welcome</h3>
+		<div id="hamburger">
+			<i class="fas fa-bars fa-2x"></i>
+		</div>
+	</nav>
+	<ul id="menu">
+		<li class="item">Home</li>
+		<li class="item">About</li>
+		<li class="item">Contact</li>
+		<li id="close">
+			<i class="fas fa-times"></i>
+		</li>
+	</ul>
+	
+	
+
+	
+	<!-------------------------------------------Masthead--------------------------------->
+	<div id="jumbotron">
+		<div id="background">
+			<h1>Student Name</h1>
+		</div>
+	</div>
+	
+	
+	
+	<!-----------------------------------------------Target Divs--------------------------------->
+	
+	<section id="intro">
+		<h2>Changes with jQuery</h2>
+		<div class="container">
+			<div><button id="btn1">Change Content</button></div>
+			<div><button id="btn2">Change CSS</button></div>
+		</div>
+		<div class="container">
+			<div id="changeContent">
+				<p>This is where our changing content will go. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, debitis neque dignissimos animi, odio, dolorum voluptatem iste iusto sit natus pariatur quis quia dolor eveniet.</p>
+			</div>
+
+			<div class="cssChange">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos tempore, ab possimus fugiat illum. Quis eos ipsum, id expedita fugit reprehenderit inventore nihil ullam ipsa, tenetur, vel eius rerum eum consectetur dolorum quae aperiam atque doloremque. Laudantium neque esse quo.</p>
+			</div>
+		</div>
+	</section>
+	
+	<!----------------------------------------Gallery--------------------------------->
+	<div id="gallery">
+		<button id="prevBtn">Prev</button>
+		<button id="nextBtn">Next</button>
+		<div id="imgSwitch">
+			<div id="set1" class="imgSet">
+				<img src="images/dog.jpg" alt="dog">
+				<img src="images/cat.jpg" alt="cat">
+				<img src="images/bird.jpg" alt="bird">
+			</div>
+			<div id="set2" class="imgSet">
+				<img src="images/cactus.jpg" alt="cactus">
+				<img src="images/banana.jpg" alt="banana cactus">
+				<img src="images/reading.jpg" alt="reading cactus">
+			</div>
+		</div>
+	</div>
+	
+	
+	<script src="js/myScript.js"></script>
+</body>
+</html>
+
+
+
+
